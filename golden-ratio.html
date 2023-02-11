@@ -1,0 +1,14 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/golden.css">
+	<script src="js/golden.js"></script>
+</head>
+<body onpageshow="putSeeds()">
+	<div>
+		<input type="number" onkeydown="adjustRatio(event,this.value)"></input>
+		<button type="button" onmousedown="increase()" onmouseup="mouseUp()">Artır</button>
+		<a id="ratioPanel"></a>
+		<button type="button" onmousedown="decrease()" onmouseup="mouseUp()">Azalt</button>
+	</div>
+</body>
+</html>
